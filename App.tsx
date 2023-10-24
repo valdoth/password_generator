@@ -1,5 +1,11 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Text, View} from 'react-native';
+
+// import * as Yup from 'yup';
+
+// const passwordSchema = Yup.object().shape({
+//   passwordLength: Yup.number().min(0),
+// });
 
 const App = () => {
   return (
@@ -11,4 +17,4 @@ const App = () => {
 
 export default App;
 
-const styles = StyleSheet.create({});
+// const styles = StyleSheet.create({});
